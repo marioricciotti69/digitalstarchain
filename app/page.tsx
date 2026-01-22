@@ -7,12 +7,13 @@ export default function Home() {
         <div className="container">
           <div className="heroGrid">
             <div>
-              <span className="badge">Corporate Digital Marketing</span>
-              <h1 className="h1">Clarity-led marketing that turns attention into revenue</h1>
-              <p className="pLead">
-                We design and run SEO, content, paid, and lifecycle campaigns with one goal:
-                measurable growth. Clean strategy, disciplined execution, transparent reporting.
-              </p>
+             <span className="badge">Corporate Digital Marketing</span>
+<h1 className="h1">Clarity-led marketing that turns attention into revenue</h1>
+<p className="pLead">
+  We design and run SEO, content, paid, and lifecycle campaigns with one goal:
+  measurable growth. Clean strategy, disciplined execution, transparent reporting.
+</p>
+
 
               <div className="actions">
                 <Link className="btn btnPrimary" href="/contact">Request a proposal</Link>
