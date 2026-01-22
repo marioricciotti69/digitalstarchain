@@ -113,3 +113,25 @@ export default function Home() {
             </Link>
           </div>
         </div>
+      </section>
+
+      <section className="cta">
+        <div className="container">
+          <div className="ctaBox">
+            <div>
+              <h3 style={{ margin: 0, fontSize: 22, letterSpacing: "-0.2px" }}>
+                Want a plan tailored to your business?
+              </h3>
+              <p className="sectionSub" style={{ marginTop: 8 }}>
+                Share your goals and we’ll reply with a clear proposal and next steps.
+              </p>
+            </div>
+            <Link className="btn btnPrimary" href="/contact">
+              Get started
+            </Link>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
