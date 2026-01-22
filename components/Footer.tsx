@@ -10,8 +10,9 @@ export default function Footer() {
               <span className="logo" aria-hidden="true" />
               <span>Digital Star Chain</span>
             </div>
-            <p className="small" style={{ marginTop: 8, maxWidth: 420 }}>
-              Corporate-grade digital marketing built around clarity, performance, and measurable growth.
+            <p className="small" style={{ marginTop: 8, maxWidth: 520 }}>
+              Digital Star Chain is a corporate-grade growth partner for digital channels, focused on clarity,
+              execution, and measurable results.
             </p>
           </div>
 
