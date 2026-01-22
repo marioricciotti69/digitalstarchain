@@ -20,11 +20,11 @@ export default function Navbar() {
 
           <nav className="navLinks" aria-label="Main navigation">
             {links.map((l) => (
-              <Link key={l.href} href={l.href}>
-                {l.label}
-              </Link>
-            ))}
-            <Link className="btn btnPrimary" href="/contact">
+              <Link href="/" className="brand" aria-label="Digital Star Chain home">
+  <span className="logo" aria-hidden="true" />
+  <span>Digital Star Chain</span>
+</Link>
+
               Get a quote
             </Link>
           </nav>
