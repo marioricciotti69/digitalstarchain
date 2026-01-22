@@ -10,7 +10,7 @@ export default function Home() {
              <span className="badge">Corporate-grade digital growth</span>
 
 <h1 className="h1">
-  A growth partner for modern digital channels
+  A growth partner for modern digital channels — LIVE
 </h1>
 
 <p className="pLead">
