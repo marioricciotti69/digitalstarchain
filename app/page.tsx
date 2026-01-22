@@ -7,12 +7,17 @@ export default function Home() {
         <div className="container">
           <div className="heroGrid">
             <div>
-             <span className="badge">Corporate Digital Marketing</span>
-<h1 className="h1">Clarity-led marketing that turns attention into revenue</h1>
+             <span className="badge">Corporate-grade digital growth</span>
+
+<h1 className="h1">
+  A growth partner for modern digital channels
+</h1>
+
 <p className="pLead">
-  We design and run SEO, content, paid, and lifecycle campaigns with one goal:
-  measurable growth. Clean strategy, disciplined execution, transparent reporting.
+  Digital Star Chain is a corporate-grade growth partner for digital channels,
+  focused on clarity, execution, and measurable results.
 </p>
+
 
 
               <div className="actions">
