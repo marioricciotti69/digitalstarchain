@@ -1,34 +1,24 @@
 import Link from "next/link";
 
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/services", label: "Services" },
-  { href: "/why", label: "Why Us" },
-  { href: "/contact", label: "Contact" }
-];
-
 export default function Navbar() {
   return (
-    <header className="nav">
-      <div className="container">
-        <div className="navInner">
-          <Link href="/" className="brand" aria-label="Digital Star Chain home">
-            <span className="logo" aria-hidden="true" />
-            <span>Digital Star Chain</span>
-          </Link>
+    <header style={{ borderBottom: "1px solid #e6e8ec", background: "#fff" }}>
+      <div style={{ maxWidth: 1100, margin: "0 auto", padding: "14px 20px", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+        <Link href="/" style={{ fontWeight: 800, textDecoration: "none", color: "#0b1220" }}>
+          Digital Star Chain
+        </Link>
 
-          <nav className="navLinks" aria-label="Main navigation">
-            {links.map((l) => (
-              <Link href="/" className="brand" aria-label="Digital Star Chain home">
-  <span className="logo" aria-hidden="true" />
-  <span>Digital Star Chain</span>
-</Link>
-
-              Get a quote
-            </Link>
-          </nav>
-        </div>
+        <nav style={{ display: "flex", gap: 14, alignItems: "center" }}>
+          <Link href="/about" style={{ color: "#556070", textDecoration: "none" }}>About</Link>
+          <Link href="/services" style={{ color: "#556070", textDecoration: "none" }}>Services</Link>
+          <Link href="/why" style={{ color: "#556070", textDecoration: "none" }}>Why Us</Link>
+          <Link href="/contact" style={{ color: "#556070", textDecoration: "none" }}>Contact</Link>
+        </nav>
+      </div>
+    </header>
+  );
+}
+       </div>
       </div>
     </header>
   );
