@@ -1,9 +1,9 @@
 export const contactInfo = {
   companyName: "Digital Star Chain",
-  email: "hello@digitalstarchain.online",
+  email: "administration@starchain.online",
   phone: "+971503523081",
-  addressLine: "HONG KONG",
+  addressLine: "HONG KONG CENTRAL",
   cityCountry: "HONG KONG",
-  hours: "Mon–Fri",
+  hours: "Mon–Fri 9am/4pm",
   formspreeEndpoint: "" // <-- qui metterai il link Formspree
 };
