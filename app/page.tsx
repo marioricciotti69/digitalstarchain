@@ -1,33 +1,11 @@
 export default function Home() {
   return (
-    <main style={{ padding: 40 }}>
-      <h1 className="h1">A growth partner for modern digital channels</h1>
-      <p className="pLead">
-        Digital Star Chain is a corporate-grade growth partner for digital channels,
-        focused on clarity, execution, and measurable results.
-      </p>
+    <main style={{ padding: 40, fontFamily: "system-ui" }}>
+      <h1>Digital Star Chain</h1>
+      <p>Site is live ✅</p>
     </main>
   );
 }
-  <div className="kpiLab">No guesswork. Clear KPIs.</div>
-                </div>
-                <div className="kpi">
-                  <div className="kpiVal">Execution-ready</div>
-                  <div className="kpiLab">Fast shipping, weekly iteration.</div>
-                </div>
-                <div className="kpi">
-                  <div className="kpiVal">Transparent</div>
-                  <div className="kpiLab">Dashboards and plain-English updates.</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="card">
-              <div className="cardPad">
-                <h3 style={{ margin: 0, fontSize: 16, fontWeight: 800 }}>What we deliver</h3>
-                <p className="featureDesc" style={{ marginTop: 10 }}>
-                  A complete growth system: acquisition, conversion, and retention — built to be measurable.
-                </p>
 
                 <div className="grid2" style={{ marginTop: 14 }}>
                   <div className="card cardPad" style={{ boxShadow: "none" }}>
