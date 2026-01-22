@@ -3,8 +3,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Digital Star Chain",
-  description: "Minimal, corporate digital marketing website."
+  title: "Digital Star Chain — Digital Growth Partner",
+  description:
+    "Digital Star Chain is a corporate-grade growth partner for digital channels, focused on clarity, execution, and measurable results."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
