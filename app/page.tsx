@@ -1,34 +1,15 @@
-import Link from "next/link";
-
 export default function Home() {
   return (
-    <>
-      <section className="hero">
-        <div className="container">
-          <div className="heroGrid">
-            <div>
-             <span className="badge">Corporate-grade digital growth</span>
-
-<h1 className="h1">
-  A growth partner for modern digital channels 
-</h1>
-
-<p className="pLead">
-  Digital Star Chain is a corporate-grade growth partner for digital channels,
-  focused on clarity, execution, and measurable results.
-</p>
-
-
-
-              <div className="actions">
-                <Link className="btn btnPrimary" href="/contact">Request a proposal</Link>
-                <Link className="btn" href="/services">View services</Link>
-              </div>
-
-              <div className="kpis">
-                <div className="kpi">
-                  <div className="kpiVal">Strategy-first</div>
-                  <div className="kpiLab">No guesswork. Clear KPIs.</div>
+    <main style={{ padding: 40 }}>
+      <h1 className="h1">A growth partner for modern digital channels</h1>
+      <p className="pLead">
+        Digital Star Chain is a corporate-grade growth partner for digital channels,
+        focused on clarity, execution, and measurable results.
+      </p>
+    </main>
+  );
+}
+  <div className="kpiLab">No guesswork. Clear KPIs.</div>
                 </div>
                 <div className="kpi">
                   <div className="kpiVal">Execution-ready</div>
